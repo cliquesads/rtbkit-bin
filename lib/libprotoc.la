@@ -5,10 +5,10 @@
 # It is necessary for linking the library.
 
 # The name that we can dlopen(3).
-dlname='libprotoc.so.7'
+dlname='libprotoc.so.10'
 
 # Names of this library.
-library_names='libprotoc.so.7.0.0 libprotoc.so.7 libprotoc.so'
+library_names='libprotoc.so.10.0.0 libprotoc.so.10 libprotoc.so'
 
 # The name of the static archive.
 old_library='libprotoc.a'
@@ -23,7 +23,7 @@ dependency_libs=' /home/bliang/local/lib/libprotobuf.la -lpthread -lz'
 weak_library_names=''
 
 # Version information for libprotoc.
-current=7
+current=10
 age=0
 revision=0
 
